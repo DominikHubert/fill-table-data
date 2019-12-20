@@ -4,10 +4,8 @@ To fill the html table, with data from api
 This code fills the table with date from the Blockchain.org API
 
 Use the html code to fill the table:
-
+<!--
 <p><script type="text/javascript" src="https://..../block.js"></script></p>
-
-
 <table style="width:100%">
   <tr>
     <td>Aktueller Block</td>
@@ -30,3 +28,5 @@ Use the html code to fill the table:
     <td><p id="price"></p></td>
   </tr>
 </table>
+//-->
+
